@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kospeli website</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+<!-- header section starts -->
+
+<header>
+
+    <div id="menu-bar" class="fas fa-bars"></div>
+
+    <a href="#" class="logo"><span>K</span>öșpeli</a>
+    <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#rent">rent</a>
+        <a href="#packages">packages</a>
+        <a href="#gallery">gallery</a>
+        <a href="#contact">contact</a>
+    </nav>
+
+<div class="icons">
+<i class="fas fa-search" id="search-btn"></i>
+<i class="fas fa-user" id="login-btn"></i>
+</div>
+
+<form action="" class="search-bar-container">
+    <input type="search" id="search-bar" placeholder="search here...">
+    <label for="search-bar" class="fas fa-search"></label>
+</form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- login form container -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+ <form action="">
+     <h3>login</h3>
+     <input type="email" class="box" placeholder="enter your email">
+     <input type="password" class="box" placeholder="enter your password">
+     <input type="submit" value="login now" class="btn"> 
+     <input type="checkbox" id="remember">
+     <label for="remember">remember me</label>
+     <p>forget password? <a href="#">click here</a></p>
+     <p>don't have and account <a href="#">regictration now</a></p>
+
+    </form>   
+</div>
+
+<!-- home section starts -->
+
+
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>Home is where you park it</h3>
+        <p>Let's revive the lifestyle of our nomadic ancestors!</p>
+        <a href="#" class="btn">learn more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+<!-- home section ends -->
+
+
+<!-- rent section starts -->
+
+<section class="rent" id="rent">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>n</span>
+        <span>t</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/rent-img.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <h3>model of campervan</h3>
+                <input type="text" placeholder="place name of model">
+            </div>
+            <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="rent now">
+        </form>
+
+    </div>
+
+<!-- rent section ends -->
+
+<!-- packages section starts-->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="images/standart.jpg" alt="">
+            <div class="content">
+                <h3> Standart package </h3>
+                <p>for 4+1 people (sleeping accessories, bath accessories)</p>
+                <div class="price"> 24 000₸ </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/medium.jpg" alt="">
+            <div class="content">
+                <h3> Medium package </h3>
+                <p>for 4+1 people (sleeping accessories, bath accessories, snacks)</p>
+                <div class="price"> 27 000₸ </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="images/luxury.jpg" alt="">
+            <div class="content">
+                <h3> Luxury package </h3>
+                <p>for 4+1 people (bath accessories, sleeping accessories + SOS button, food, kitchen utensils, map with route and stops, tent on the roof for sunbathing)</p>
+                <div class="price"> 30 000₸ </div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+
+
+<!-- packages section ends-->
+
+<!-- gallery section starts -->
+<!-- gallery section ends -->
+
+<h1 class="heading">
+    <span>g</span>
+    <span>a</span>
+    <span>l</span>
+    <span>l</span>
+    <span>e</span>
+    <span>r</span>
+    <span>y</span>
+</h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <img src="images/g-6.jpg" alt="">
+    </div>
+    <div class="box">
+        <img src="images/g-2.jpg" alt="">
+    </div>
+    <div class="box">
+        <img src="images/g-3.jpg" alt="">
+    </div>
+    <div class="box">
+        <img src="images/g-4.jpg" alt="">
+    </div>
+    <div class="box">
+        <img src="images/g-5.jpg" alt="">
+    </div>
+    <div class="box">
+        <img src="images/g-1.jpg" alt="">
+    </div>
+</div>
+</section>
+
+
+<!-- contact section starts-->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="images/contact.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+    
+</section>
+
+<!-- contact section ends-->
+
+<!-- footer section starts -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>The name of the project is translated from the Kazakh language as "nomad", which reflects the essence of the project’s activity. This is a service for active tourists that offers a 3-in-1 travel format (accommodation, transport, and food).
+            </p>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">rent</a>
+            <a href="#">packages</a>
+            <a href="#">gallery</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">instagram</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit"> created by <span> Sabina Daurenbek </span> | all rights reserved! </h1>
+
+</section>
+
+
+
+
+
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+    <!-- custom js file link -->
+    <script src="app.js"></script>
+</body>
+</html>
